@@ -10,5 +10,6 @@ public class Ejemplo {
         System.out.println("Ingrese el segundo número: ");
         b = leer.nextInt();
         System.out.println("Los números son: "+a+" y "+b);
+        System.out.println("La suma de ambos es: "+(a+b));
     }
 }
