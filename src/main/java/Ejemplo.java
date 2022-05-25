@@ -12,5 +12,11 @@ public class Ejemplo {
         System.out.println("Los números son: "+a+" y "+b);
         System.out.println("La suma de ambos es: "+(a+b));
         System.out.println("La resta de ambos es: "+(a-b));
+
+        if(a>b){
+            System.out.println("El mayor es "+a);
+        }else{
+            System.out.println("El mayor es "+b);
+        }
     }
 }
